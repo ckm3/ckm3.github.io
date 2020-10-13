@@ -1,5 +1,5 @@
 # Site settings
-title: Kaiming Cui
+title: Kaiming's Homepage
 name: Kaiming Cui
 email: ckm@nao.cas.cn
 url: https://ckm3.github.io/
@@ -18,7 +18,7 @@ bing_verify:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: disqus
+contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
