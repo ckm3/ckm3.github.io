@@ -1,1 +1,3 @@
-# Kaiming Cui's Homepage based on Jekyll theme Freelancer
+# Kaiming Cui's Homepage 
+
+Based on Jekyll theme Freelancer.
