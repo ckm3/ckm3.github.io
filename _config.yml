@@ -49,7 +49,9 @@ social:
 #   - title: bitbucket
 #     url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/ckm3
+  - title: email
+    url: ckm@nao.cas.cn
 
 # Postal address (add as many lines as necessary)
 address:
