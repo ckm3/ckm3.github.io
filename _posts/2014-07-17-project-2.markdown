@@ -1,11 +1,12 @@
 ---
+title: "KIC 12268220: A delta Scuti Pulsating Star and an Active Protohelium White Dwarf in an Eclipsing Binary System"
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: cake.png
+# date: 2014-07-17
+img: 12268220.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+# project-date: April 2014
+# client: Start Bootstrap
+# category: Web Development
+description: We present a photometric, spectroscopic, asteroseismic, and evolutionary analysis of the Algol-type eclipsing binary KIC 12268220. The evolutionary tracks of our model suggest that the low-mass (~ 0.23 solar masses) evolved secondary shows a similar evolutionary state to the R CMa-type system, which might evolve to an EL CVn system.
 ---

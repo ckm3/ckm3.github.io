@@ -35,11 +35,11 @@ color:
 footer:
   copyright: Kaiming Cui
   location: Beijing, China
-  social: Around the Web
+  # social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
+# social:
 #   - title: twitter
 #     url: http://twitter.com/jekyllrb
 #   - title: facebook
@@ -48,10 +48,10 @@ social:
 #     url: http://stackoverflow.com/questions/tagged/jekyll
 #   - title: bitbucket
 #     url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/ckm3
-  - title: email
-    url: ckm@nao.cas.cn
+    # - title: github
+      # url: http://github.com/ckm3
+  # - title: email
+  #   url: ckm@nao.cas.cn
 
 # Postal address (add as many lines as necessary)
 address:
@@ -59,7 +59,7 @@ address:
   - line: Chaoyang District, Beijing, 100000
 
 # Credits content
-credits: 'This homepage is based on Freelance. Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'This homepage is based on Freelance. Freelancer is a free to use, open source Bootstrap theme created by <a style="color:#8383a2; href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
