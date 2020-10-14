@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2020-10-14T21:33:54+08:00</updated>
+  <id>http://localhost:4000/</id>
+
+  
+    <title type="html">Kaiming’s Homepage</title>
+  
+
+  
+    <subtitle>This is Kaiming's Homepage for Astrophysical Research.</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      <title type="html">Long rotation period main-sequence stars from Kepler SAP light curves</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Long rotation period main-sequence stars from Kepler SAP light curves" />
+      <published>2014-07-18T00:00:00+08:00</published>
+      <updated>2014-07-18T00:00:00+08:00</updated>
+      <id>http://localhost:4000/project-1</id>
+      <content type="html" xml:base="http://localhost:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">KIC 12268220: A delta Scuti Pulsating Star and an Active Protohelium White Dwarf in an Eclipsing Binary System</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="KIC 12268220: A delta Scuti Pulsating Star and an Active Protohelium White Dwarf in an Eclipsing Binary System" />
+      <published>2014-07-17T00:00:00+08:00</published>
+      <updated>2014-07-17T00:00:00+08:00</updated>
+      <id>http://localhost:4000/project-2</id>
+      <content type="html" xml:base="http://localhost:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Others to be added</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Others to be added" />
+      <published>2014-07-16T00:00:00+08:00</published>
+      <updated>2014-07-16T00:00:00+08:00</updated>
+      <id>http://localhost:4000/project-3</id>
+      <content type="html" xml:base="http://localhost:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
