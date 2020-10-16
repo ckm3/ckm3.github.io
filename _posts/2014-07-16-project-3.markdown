@@ -1,12 +1,13 @@
 ---
-title: Others to be added
+title: On going works
 layout: default
 modal-id: 3
 # date: 2014-07-16
-img: others.png
+img: ongoing-2.png
 alt: image-alt
 # project-date: April 2014
 # client: Start Bootstrap
 # category: Web Development
-description: 
+description: <ul><li><p>High precision photometry for TESS pixle data.</p></li><li><p>Rotation period determination based on traditional methods,statistical machine learning and deep learning.</p></li><li><p>Stellar magnetic proxies in both photomosphere and chromosphere based on Mount Wilson H&amp;K project and TESS light curve.</p></li><li><p>Eclipsing binary modeling based on LAMOST radial-velocity survey and Kepler.</p></li></ul>
+
 ---
