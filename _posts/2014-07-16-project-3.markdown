@@ -1,13 +1,13 @@
 ---
-title: On going works
+title: Identify Light Curve Signals with Deep Learning Based Object Detection Algorithm. I. Transit Detection
 layout: default
 modal-id: 3
 # date: 2014-07-16
-img: ongoing-2.png
+img: intro-animation.gif
 alt: image-alt
 # project-date: April 2014
 # client: Start Bootstrap
 # category: Web Development
-description: <ul><li><p>High precision photometry for TESS pixle data.</p></li><li><p>Rotation period determination based on traditional methods,statistical machine learning and deep learning.</p></li><li><p>Stellar magnetic proxies in both photomosphere and chromosphere based on Mount Wilson H&amp;K project and TESS light curve.</p></li><li><p>Eclipsing binary modeling based on LAMOST radial-velocity survey and Kepler.</p></li></ul>
+description: We develop a novel detection algorithm based on a well-proven object detection framework in the computer vision field. Through training the network on the light curves of the confirmed Kepler exoplanets, our model yields 94% precision and 95% recall for transits with signal-to-noise ratio higher than 6 (set the confidence threshold to 0.6). The code is available at <body> <a href="https://github.com/ckm3/Deep-Transit" style="color:red;">GitHub</a> </body>.
 
 ---
