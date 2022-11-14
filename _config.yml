@@ -1,7 +1,7 @@
 # Site settings
 title: Kaiming Cui's Homepage
 name: Kaiming Cui
-email: ckm@nao.cas.cn
+email: cuikaiming@sjtu.edu.cn
 url: https://ckm3.github.io/
 description: "This is Kaiming Cui's Homepage for Astrophysical Research."
 keywords: "Astrophysics"
@@ -18,7 +18,7 @@ bing_verify: "9860267A914DADE8C3767077B8A199BF"
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# contact: none
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -33,8 +33,9 @@ color:
 
 # Footer settings
 footer:
+  email: cuikaiming@sjtu.edu.cn
   copyright: Kaiming Cui
-  location: Beijing, China
+  location: Shanghai, China
   # social: Around the Web
   credits: Credits
 
@@ -51,12 +52,12 @@ footer:
     # - title: github
       # url: http://github.com/ckm3
   # - title: email
-  #   url: ckm@nao.cas.cn
+    # url: ckm@nao.cas.cn
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 20A Datun Road
-  - line: Chaoyang District, Beijing, 100000
+  - line: Tsung-Dao Lee Institute
+  - line: NO.520 Shengrong Road, Shanghai, 201210
 
 # Credits content
 credits: 'This homepage is based on Freelance. Freelancer is a free to use, open source Bootstrap theme created by <a style="color:#8383a2; href="http://startbootstrap.com">Start Bootstrap</a>.'
