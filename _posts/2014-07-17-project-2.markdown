@@ -3,7 +3,7 @@ title: "KIC 12268220: A delta Scuti Pulsating Star and an Active Protohelium Whi
 layout: default
 modal-id: 2
 # date: 2014-07-17
-img: 12268220.png
+img: 12268220_paper_cover.png
 alt: image-alt
 # project-date: April 2014
 # client: Start Bootstrap

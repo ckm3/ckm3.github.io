@@ -3,7 +3,8 @@ title: Identify Light Curve Signals with Deep Learning Based Object Detection Al
 layout: default
 modal-id: 3
 # date: 2014-07-16
-img: intro-animation.gif
+img: deep-transit_paper_cover.png
+inner_img: intro-animation.gif
 alt: image-alt
 # project-date: April 2014
 # client: Start Bootstrap

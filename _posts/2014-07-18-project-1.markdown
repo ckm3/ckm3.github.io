@@ -3,7 +3,8 @@ title: Long rotation period main-sequence stars from Kepler SAP light curves
 layout: default
 modal-id: 1
 # date: 2014-07-18
-img: Long-period-rotators.png
+img: long_period_paper_cover.png
+inner_img: Long-period-rotators.png
 alt: image-alt
 # project-date: April 2014
 # client: Start Bootstrap
