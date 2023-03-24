@@ -9,12 +9,12 @@
                         {% for adress in site.address %}
                         {{ adress.line }} <br>
                         {% endfor %} 
-                        <a style="color:#8383a2; href="mailto:cuikaiming@sjtu.edu.cn">{{ site.footer.email}}</a>
+                        <!-- <a style="color:#8383a2; href="mailto:cuikaiming@sjtu.edu.cn">{{ site.footer.email}}</a> -->
                     </p>
                     
                 </div>
-                <div class="footer-col col-md-4">
-                    <h3>{{ site.footer.social }}</h3>
+                <div class="footer-col col-md-12">
+                    <!-- <h3>{{ site.footer.social }}</h3> -->
                     <ul class="list-inline">
                         {% for network in site.social %}
                         <li>
@@ -36,8 +36,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <section id="footer">
-                    <p>Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}</p>
-                    <p>{{ site.credits }}</p>
+                    <p class="small">Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}</p>
+                    <p class="small">{{ site.credits }}</p>
                     </section>
                 </div>
             </div>
