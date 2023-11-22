@@ -1,0 +1,15 @@
+---
+title: A General Light Curve Classification Framework
+layout: default
+catagories: [AI,Planetary]
+modal-id: 4
+# date: 2014-07-16
+img: deep-lc_paper_cover.png
+inner_img: lc.gif
+alt: image-alt
+# project-date: April 2014
+# client: Start Bootstrap
+# category: Web Development
+description: We present a novel deep learning framework for classifying light curves using a weakly supervised object detection model. Our framework identifies the optimal windows for both light curves and power spectra automatically, and zooms in on their corresponding data. This allows for automatic feature extraction from both time and frequency domains, enabling our model to handle data across different scales and sampling intervals. We train our model on datasets obtained from both space-based and ground-based multi-band observations of variable stars and transients. We achieve an accuracy of 87% for combined variables and transient events, which is comparable to the performance of previous feature-based models. Our trained model can be utilized directly to other missions, such as ASAS-SN, without requiring any retraining or fine-tuning.. The code is available at <body> <a href="https://github.com/ckm3/Deep-LC" style="color:red;">GitHub</a> </body>.
+
+---

@@ -1,6 +1,7 @@
 ---
-title: Identify Light Curve Signals with Deep Learning Based Object Detection Algorithm. I. Transit Detection
+title: Transit Detection
 layout: default
+category: Planetary
 modal-id: 3
 # date: 2014-07-16
 img: deep-transit_paper_cover.png

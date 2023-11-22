@@ -1,0 +1,15 @@
+---
+title: Substellar Companions to Nearby Stars
+layout: default
+category: Planetary
+modal-id: 5
+# date: 2014-07-16
+img: BD_paper_cover.png
+inner_img: BD-intro.png
+alt: image-alt
+# project-date: April 2014
+# client: Start Bootstrap
+# category: Web Development
+description: We analyze 5108 AFGKM stars with at least five high-precision radial velocity points, as well as Gaia and Hipparcos astrometric data, utilizing a novel pipeline developed in previous work. 167 cold giants and 68 other types of companions are identified, through combined analyses of radial velocity, astrometry, and imaging data. We find a significant brown-dwarf valley around 40 MJup. We also find a power-law distribution in the host binary fraction beyond 3 au, similar to that found for single stars, indicating no preference of multiplicity for brown dwarfs.
+
+---
