@@ -1,15 +1,14 @@
 ---
 title: Deep Learning for Exoplanet Transit Detection
-category: exoplanet
+category: ai
 modal-id: 3
 img: deep-transit_paper_cover.png
 inner_img: intro-animation.gif
 alt: Deep learning transit detection
 description: Development of a novel convolutional neural network architecture for automated detection of planetary transits in photometric time series. Our method, based on proven computer vision frameworks, achieves 94% precision and 95% recall for transits with signal-to-noise ratios above 6. The algorithm significantly reduces false positive rates compared to traditional detection methods and has been successfully applied to Kepler and TESS datasets.
 journal: Astronomical Journal
-year: 2022
+year: 2021
 authors: Cui, K., et al.
 doi: 10.3847/1538-3881/ac3482
-arxiv: 2108.00670v2
 github: https://github.com/ckm3/Deep-Transit
 ---

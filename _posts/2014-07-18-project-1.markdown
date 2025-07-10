@@ -1,13 +1,14 @@
 ---
-title: Long rotation period main-sequence stars from Kepler SAP light curves
-layout: default
+title: Long-Period Stellar Rotation from Kepler Photometry
 modal-id: 1
-# date: 2014-07-18
 img: long_period_paper_cover.png
 inner_img: Long-period-rotators.png
-alt: image-alt
-# project-date: April 2014
-# client: Start Bootstrap
-# category: Web Development
-description: We explore a systematic approach based on the light curve pre-processing, period detection and candidate selection. We also develop a simulated light curve test to quantify our detection limits for the SAP data. After applying our method to the raw SAP light curves, we found more than 1000 main-sequence stars with the period longer than 30 days, 165 are newly discovered.
+alt: Long-period stellar rotation study
+category: stellar
+description: A comprehensive analysis of main-sequence stars with rotation periods exceeding 30 days using Kepler SAP light curves. We developed a systematic approach combining light curve pre-processing, advanced period detection algorithms, and rigorous candidate selection criteria. Our method successfully identified over 1000 long-period rotators, including 165 newly discovered systems, significantly expanding our understanding of stellar rotation in the slow-rotation regime.
+journal: Monthly Notices of the Royal Astronomical Society
+year: 2019
+authors: Cui, K., et al.
+doi: 10.1093/mnras/stz2432
+arxiv: 1909.00189
 ---

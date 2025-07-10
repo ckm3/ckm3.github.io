@@ -10,40 +10,79 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <div align="center">
-                                <h3>{{ post.title }}</h3>
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="modal-body" style="padding: 40px;">
+                            <div style="text-align: center; margin-bottom: 30px;">
+                                <h2 style="color: #1e3a8a; margin-bottom: 15px;">{{ post.title }}</h2>
+                                {% if post.authors %}
+                                <p style="font-style: italic; font-size: 16px; color: #666; margin-bottom: 10px;">{{ post.authors }}</p>
+                                {% endif %}
+                                {% if post.journal and post.year %}
+                                <p style="font-weight: 500; color: #1e3a8a; margin-bottom: 5px;">{{ post.journal }} ({{ post.year }})</p>
+                                {% endif %}
                             </div>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.inner_img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            {% if post.description %}
-                            <div align="justify">
-                                <p>{{ post.description }}</p>
+                            <hr class="star-primary" style="margin: 30px auto;">
+                            
+                            <div class="row" style="margin-bottom: 30px;">
+                                <div class="col-md-6">
+                                    <img src="img/portfolio/{{ post.inner_img }}" class="img-responsive" 
+                                         alt="{{ post.alt }}" style="border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                                </div>
+                                <div class="col-md-6">
+                                    {% if post.description %}
+                                    <h4 style="color: #1e3a8a; margin-bottom: 15px;">Abstract</h4>
+                                    <div style="text-align: justify; line-height: 1.6;">
+                                        <p>{{ post.description }}</p>
+                                    </div>
+                                    {% endif %}
+                                    
+                                    {% if post.category %}
+                                    <div style="margin-top: 20px;">
+                                        <strong style="color: #1e3a8a;">Research Area:</strong>
+                                        <span style="background-color: #e0f2fe; color: #01579b; padding: 4px 12px; 
+                                              border-radius: 20px; font-size: 14px; margin-left: 10px;">
+                                            {{ post.category | upcase }}
+                                        </span>
+                                    </div>
+                                    {% endif %}
+                                </div>
                             </div>
-                               
+                            
+                            {% if post.doi or post.arxiv or post.github %}
+                            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                                <h5 style="color: #1e3a8a; margin-bottom: 15px;">Publication Links</h5>
+                                <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                                    {% if post.doi %}
+                                    <a href="https://doi.org/{{ post.doi }}" target="_blank" 
+                                       style="display: inline-block; padding: 8px 16px; background-color: #16a085; 
+                                              color: white; text-decoration: none; border-radius: 5px; font-size: 14px;">
+                                        <i class="fa fa-external-link" style="margin-right: 5px;"></i>DOI
+                                    </a>
+                                    {% endif %}
+                                    {% if post.arxiv %}
+                                    <a href="https://arxiv.org/abs/{{ post.arxiv }}" target="_blank" 
+                                       style="display: inline-block; padding: 8px 16px; background-color: #b91c1c; 
+                                              color: white; text-decoration: none; border-radius: 5px; font-size: 14px;">
+                                        <i class="fa fa-file-text-o" style="margin-right: 5px;"></i>arXiv
+                                    </a>
+                                    {% endif %}
+                                    {% if post.github %}
+                                    <a href="{{ post.github }}" target="_blank" 
+                                       style="display: inline-block; padding: 8px 16px; background-color: #374151; 
+                                              color: white; text-decoration: none; border-radius: 5px; font-size: 14px;">
+                                        <i class="fa fa-github" style="margin-right: 5px;"></i>GitHub
+                                    </a>
+                                    {% endif %}
+                                </div>
+                            </div>
                             {% endif %}
-                            <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if post.project-date %}
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                <!-- {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %} -->
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            
+                            <div style="text-align: center; margin-top: 30px;">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal" 
+                                        style="padding: 12px 30px; font-size: 16px;">
+                                    <i class="fa fa-times" style="margin-right: 8px;"></i>Close
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

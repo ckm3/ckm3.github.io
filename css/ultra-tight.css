@@ -1,0 +1,540 @@
+/* Ultra-Tight Professional Academic Layout */
+
+/* Global Reset for Maximum Compactness */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body adjustment for fixed navbar */
+body {
+    font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #374151;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 55px !important; /* Optimal padding for minimal navbar */
+}
+
+/* Navigation Ultra-Compact - Absolute Minimal Height */
+.navbar {
+    padding: 1px 0 !important;
+    min-height: 32px !important;
+    height: 32px !important;
+    max-height: 32px !important;
+    border: none !important;
+    background-color: rgba(255,255,255,0.98) !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+.navbar-brand {
+    font-size: 1.0em !important;
+    padding: 3px 15px !important;
+    font-weight: 600 !important;
+    line-height: 26px !important;
+    height: 32px !important;
+}
+
+.navbar-nav > li > a {
+    padding: 4px 8px !important;
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 24px !important;
+    height: 32px !important;
+}
+
+/* Override Bootstrap navbar defaults with stronger specificity */
+.navbar-default {
+    min-height: 32px !important;
+    height: 32px !important;
+    max-height: 32px !important;
+    border: none !important;
+}
+
+/* Override any fixed navbar positioning that might interfere */
+.navbar-fixed-top {
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 1030 !important;
+    padding: 1px 0 !important;
+    height: 32px !important;
+    max-height: 32px !important;
+    min-height: 32px !important;
+    border: none !important;
+}
+
+/* Override media query styles for navbar with stronger rules */
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 1px 0 !important;
+        height: 32px !important;
+        max-height: 32px !important;
+        min-height: 32px !important;
+    }
+    
+    .navbar-fixed-top .navbar-brand {
+        font-size: 1.0em !important;
+    }
+    
+    .navbar-fixed-top.navbar-shrink {
+        padding: 0px 0 !important;
+        height: 30px !important;
+        max-height: 30px !important;
+        min-height: 30px !important;
+    }
+    
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 0.95em !important;
+    }
+}
+
+/* Header Ultra-Tight Styling */
+#header {
+    margin-bottom: 0 !important;
+    padding-top: 15px !important; /* Further reduced for minimal navbar */
+    padding-bottom: 30px !important;
+    min-height: 55vh !important;
+}
+
+/* Ultra-Compact Container Overrides */
+.container-fluid {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    max-width: 1400px !important;
+}
+
+.container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+#header h1 {
+    font-size: 2.8em !important;
+    margin-bottom: 8px !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.8px !important;
+    line-height: 1.0 !important;
+}
+
+#header h2 {
+    font-size: 1.2em !important;
+    margin-bottom: 12px !important;
+    font-weight: 400 !important;
+}
+
+/* Section Spacing Ultra-Tight */
+section {
+    padding: 40px 0 !important;
+}
+
+section h2 {
+    font-size: 2.0em !important;
+    margin-bottom: 20px !important;
+    font-weight: 600 !important;
+}
+
+section h3 {
+    font-size: 1.3em !important;
+    margin-bottom: 15px !important;
+    font-weight: 600 !important;
+}
+
+section h4 {
+    font-size: 1.1em !important;
+    margin-bottom: 10px !important;
+    font-weight: 600 !important;
+}
+
+/* About Section Compact Override */
+#about {
+    padding: 45px 0 !important;
+}
+
+#about h2 {
+    font-size: 1.9em !important;
+    margin-bottom: 25px !important;
+}
+
+/* Portfolio Grid Ultra-Tight */
+#portfolio {
+    padding: 40px 0 !important;
+}
+
+.portfolio-item {
+    margin-bottom: 20px !important;
+}
+
+.portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(24, 188, 156, 0.9);
+    transition: all ease 0.3s;
+}
+
+.portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+/* Compact Grid System */
+.row {
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+/* Form Styling Ultra-Compact */
+.form-group {
+    margin-bottom: 20px !important;
+}
+
+.form-control {
+    height: 38px !important;
+    padding: 8px 12px !important;
+    font-size: 14px !important;
+    border: 1px solid #d1d5db !important;
+    border-radius: 6px !important;
+}
+
+textarea.form-control {
+    height: 120px !important;
+    padding: 10px 12px !important;
+}
+
+/* Button Styling Compact */
+.btn {
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border-radius: 6px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-success {
+    background-color: #16a085 !important;
+    border-color: #16a085 !important;
+}
+
+.btn-success:hover {
+    background-color: #138d75 !important;
+    border-color: #138d75 !important;
+}
+
+.btn-outline {
+    background-color: transparent !important;
+    border: 2px solid #16a085 !important;
+    color: #16a085 !important;
+}
+
+.btn-outline:hover {
+    background-color: #16a085 !important;
+    color: white !important;
+}
+
+/* Footer Ultra-Compact */
+footer {
+    padding: 35px 0 !important;
+    background-color: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+}
+
+footer h4 {
+    font-size: 1.1em !important;
+    margin-bottom: 15px !important;
+    font-weight: 600 !important;
+}
+
+footer p {
+    font-size: 13px !important;
+    margin-bottom: 8px !important;
+}
+
+/* Modal Compact Styling */
+.modal-content {
+    border-radius: 10px !important;
+    border: none !important;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2) !important;
+}
+
+.modal-header {
+    padding: 20px 25px 15px 25px !important;
+    border-bottom: 1px solid #e5e7eb !important;
+}
+
+.modal-body {
+    padding: 20px 25px !important;
+}
+
+.modal-title {
+    font-size: 1.4em !important;
+    font-weight: 600 !important;
+    color: #1e3a8a !important;
+}
+
+/* Publications Section Tight */
+#publications {
+    padding: 40px 0 !important;
+}
+
+.publication-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.publication-card:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.publication-title {
+    font-size: 1.1em !important;
+    font-weight: 600 !important;
+    color: #1e3a8a !important;
+    margin-bottom: 8px !important;
+    line-height: 1.3;
+}
+
+.publication-authors {
+    font-size: 13px !important;
+    color: #64748b !important;
+    margin-bottom: 6px !important;
+}
+
+.publication-journal {
+    font-size: 13px !important;
+    color: #374151 !important;
+    font-style: italic;
+    margin-bottom: 10px !important;
+}
+
+/* CV Section Ultra-Compact */
+#cv {
+    padding: 40px 0 !important;
+}
+
+.cv-section {
+    margin-bottom: 25px !important;
+}
+
+.cv-item {
+    margin-bottom: 15px !important;
+    padding-bottom: 15px !important;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.cv-item:last-child {
+    border-bottom: none;
+}
+
+.cv-item h4 {
+    font-size: 1.0em !important;
+    font-weight: 600 !important;
+    color: #1e3a8a !important;
+    margin-bottom: 4px !important;
+}
+
+.cv-item .institution {
+    font-size: 13px !important;
+    color: #64748b !important;
+    margin-bottom: 2px !important;
+}
+
+.cv-item .date {
+    font-size: 12px !important;
+    color: #9ca3af !important;
+    font-style: italic;
+}
+
+/* Ultra-Tight Profile Section */
+.profile-image {
+    transition: all 0.3s ease !important;
+}
+
+.profile-image:hover {
+    transform: scale(1.02) !important;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15) !important;
+}
+
+/* Tools Section Styling */
+#tools {
+    padding: 40px 0 !important;
+    background-color: #ffffff !important;
+}
+
+#tools h2 {
+    font-size: 2.0em !important;
+    margin-bottom: 20px !important;
+    font-weight: 600 !important;
+    color: #1e3a8a !important;
+}
+
+#tools h4 {
+    font-size: 1.3em !important;
+    margin-bottom: 10px !important;
+    font-weight: 600 !important;
+}
+
+.tool-card {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%) !important;
+    border-radius: 10px !important;
+    border: 1px solid #e5e7eb !important;
+    transition: all 0.3s ease !important;
+    height: 100% !important;
+}
+
+.tool-card:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 10px 25px rgba(30, 58, 138, 0.1) !important;
+}
+
+.tool-icon {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 18px !important;
+}
+
+.tool-link {
+    display: inline-block !important;
+    padding: 8px 16px !important;
+    text-decoration: none !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+}
+
+.tool-link:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Responsive Ultra-Tight Adjustments */
+@media (max-width: 768px) {
+    #header {
+        padding-top: 40px !important;
+        padding-bottom: 20px !important;
+        min-height: auto !important;
+    }
+    
+    #header h1 {
+        font-size: 2.2em !important;
+        text-align: center;
+    }
+    
+    #header h2 {
+        font-size: 1.1em !important;
+        text-align: center;
+    }
+    
+    .profile-image {
+        width: 180px !important;
+        height: 180px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    section {
+        padding: 30px 0 !important;
+    }
+    
+    .container-fluid {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    .col-lg-3, .col-md-4 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    #header h1 {
+        font-size: 1.8em !important;
+    }
+    
+    #header h2 {
+        font-size: 1.0em !important;
+    }
+    
+    .profile-image {
+        width: 150px !important;
+        height: 150px !important;
+    }
+    
+    section {
+        padding: 25px 0 !important;
+    }
+}
+
+/* Print Styles for Academic CV */
+@media print {
+    body {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    
+    #header {
+        padding: 20px 0 !important;
+        background: none !important;
+    }
+    
+    .navbar, .btn, footer {
+        display: none !important;
+    }
+    
+    section {
+        padding: 20px 0 !important;
+        page-break-inside: avoid;
+    }
+}

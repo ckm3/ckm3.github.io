@@ -1,15 +1,13 @@
 ---
-title: Substellar Companions to Nearby Stars
-layout: default
-category: Planetary
+title: Comprehensive Survey of Substellar Companions to Nearby Stars
+category: exoplanet
 modal-id: 5
-# date: 2014-07-16
 img: BD_paper_cover.png
 inner_img: BD-intro.png
-alt: image-alt
-# project-date: April 2014
-# client: Start Bootstrap
-# category: Web Development
-description: We analyze 5108 AFGKM stars with at least five high-precision radial velocity points, as well as Gaia and Hipparcos astrometric data, utilizing a novel pipeline developed in previous work. 167 cold giants and 68 other types of companions are identified, through combined analyses of radial velocity, astrometry, and imaging data. We find a significant brown-dwarf valley around 40 MJup. We also find a power-law distribution in the host binary fraction beyond 3 au, similar to that found for single stars, indicating no preference of multiplicity for brown dwarfs.
-
+alt: Substellar companion survey
+description: Large-scale statistical analysis of substellar companions using multi-epoch radial velocity, Gaia astrometry, and direct imaging data for 5,108 AFGKM stars. Our novel analysis pipeline identified 167 cold gas giants and 68 brown dwarf companions, revealing a pronounced brown dwarf desert around 40 Jupiter masses. The study demonstrates that binary fraction follows a power-law distribution beyond 3 AU, similar to single stars, indicating no multiplicity preference for brown dwarf formation.
+journal: Astrophysical Journal Supplement Series
+year: 2022
+authors: Feng, F., et al., and Cui, K.
+doi: 10.3847/1538-4365/ac7e57
 ---

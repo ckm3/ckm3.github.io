@@ -1,43 +1,63 @@
 <!-- Footer -->
-<footer class="text-center">
-    <div class="footer-above">
+<footer class="text-center" style="background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%); color: #ffffff;">
+    <div class="footer-above" style="padding: 15px 0;">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md">
-                    <h3>{{ site.footer.location }}</h3>
-                    <p>
-                        {% for adress in site.address %}
-                        {{ adress.line }} <br>
-                        {% endfor %} 
-                        <!-- <a style="color:#8383a2; href="mailto:cuikaiming@sjtu.edu.cn">{{ site.footer.email}}</a> -->
-                    </p>
-                    
+                <div class="col-md-6">
+                    <h4 style="color: #ffffff; margin-bottom: 12px;">Contact Information</h4>
+                    <div style="color: #e5e7eb;">
+                        {% for address in site.address %}
+                        <p style="margin-bottom: 8px;">{{ address.line }}</p>
+                        {% endfor %}
+                        <p style="margin-top: 8px;">
+                            <i class="fa fa-envelope" style="margin-right: 8px;"></i>
+                            <a href="mailto:{{ site.footer.email }}" style="color: #ffffff; text-decoration: none;">
+                                {{ site.footer.email }}
+                            </a>
+                        </p>
+                    </div>
                 </div>
-                <div class="footer-col col-md-12">
-                    <!-- <h3>{{ site.footer.social }}</h3> -->
-                    <ul class="list-inline">
+                
+                <div class="col-md-6">
+                    <h4 style="color: #ffffff; margin-bottom: 12px;">Professional Networks</h4>
+                    <ul class="list-inline" style="margin-bottom: 12px;">
                         {% for network in site.social %}
-                        <li>
-                            <a href="{{ network.url }}" class="btn-social btn-outline"><i
-                                    class="fa fa-fw fa-{{ network.title }}"></i></a>
+                        <li style="margin: 0 10px;">
+                            <a href="{{ network.url }}" target="_blank" 
+                               class="btn-social btn-outline" 
+                               style="display: inline-block; width: 50px; height: 50px; border: 2px solid #ffffff; 
+                                      border-radius: 50%; color: #ffffff; line-height: 46px; font-size: 20px; 
+                                      transition: all 0.3s ease; text-decoration: none;"
+                               onmouseover="this.style.backgroundColor='#ffffff'; this.style.color='#1e3a8a';"
+                               onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ffffff';">
+                                <i class="fa fa-fw fa-{{ network.title }}"></i>
+                            </a>
                         </li>
                         {% endfor %}
                     </ul>
+                    <div style="margin-top: 12px;">
+                        <a href="https://orcid.org/0000-0003-1535-5587" target="_blank" 
+                           style="display: inline-block; padding: 8px 16px; background-color: #16a085; 
+                                  color: white; text-decoration: none; border-radius: 5px; transition: all 0.3s ease;">
+                            <i class="fa fa-external-link" style="margin-right: 8px;"></i>ORCID Profile
+                        </a>
+                    </div>
                 </div>
-                <!-- <div class="footer-col col-md-4">
-                    <h3>{{ site.footer.credits }}</h3>
-                    <p>{{ site.credits }}</p>
-                </div> -->
             </div>
         </div>
     </div>
-    <div class="footer-below">
+    
+    <div class="footer-below" style="background-color: rgba(0,0,0,0.2); padding: 0px 0;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <section id="footer">
-                    <p class="small">Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}</p>
-                    <p class="small">{{ site.credits }}</p>
+                        <p style="margin-bottom: 0px; color: #e5e7eb;">
+                            Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        </p>
+                        <p style="margin-bottom: 0; color: #cbd5e1; font-size: 14px;">
+                            {{ site.credits }}
+                        </p>
                     </section>
                 </div>
             </div>

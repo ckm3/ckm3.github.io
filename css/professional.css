@@ -1,0 +1,333 @@
+/* Professional Academic Website Enhancements */
+
+/* Enhanced Typography */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Professional Header Styling */
+header {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    color: #1e3a8a;
+}
+
+header .intro-text .name {
+    color: #1e3a8a;
+    font-weight: 600;
+    font-size: 3.2em;
+}
+
+header .intro-text .skills {
+    color: #475569;
+    font-weight: 400;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+
+/* Professional Image Styling */
+header img {
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    max-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.05);
+}
+
+/* Enhanced About Section */
+section.success {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+    color: #ffffff;
+}
+
+/* Professional Navigation */
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(30, 58, 138, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 600 !important;
+    color: #1e3a8a !important;
+}
+
+.navbar-nav > li > a {
+    font-weight: 500;
+    color: #1e3a8a !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav > li > a:hover {
+    color: #1e40af !important;
+}
+
+/* Enhanced Portfolio Grid */
+.portfolio-flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.portfolio-flex-item {
+    flex: 0 0 calc(45% - 15px);
+    max-width: 400px;
+}
+
+.portfolio-item {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Professional Cards */
+.professional-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Publication Enhancements */
+.publication-item {
+    transition: all 0.3s ease;
+}
+
+.publication-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Professional Button Styling */
+.btn-primary {
+    background-color: #1e3a8a;
+    border-color: #1e3a8a;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1e40af;
+    border-color: #1e40af;
+    transform: translateY(-2px);
+}
+
+/* Enhanced Star Dividers */
+hr.star-primary {
+    border-top-color: #1e3a8a;
+}
+
+hr.star-primary:after {
+    background-color: #1e3a8a;
+    color: #ffffff;
+}
+
+/* Enhanced Modal Styling */
+.modal-content {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.modal-body {
+    padding: 40px !important;
+}
+
+/* Professional Loading Animation */
+.portfolio-item .caption {
+    background-color: rgba(30, 58, 138, 0.9);
+    backdrop-filter: blur(5px);
+}
+
+/* Enhanced Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Professional Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e3a8a;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1e40af;
+}
+
+/* Smooth Animations */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Professional Focus States */
+a:focus, button:focus, input:focus, textarea:focus {
+    outline: 2px solid #1e3a8a;
+    outline-offset: 2px;
+}
+
+/* Enhanced Navigation */
+.navbar-fixed-top {
+    transition: all 0.3s ease;
+}
+
+.navbar.shrink {
+    padding: 5px 0;
+    background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+/* Print Styles */
+@media print {
+    .navbar, footer, .scroll-top {
+        display: none;
+    }
+    
+    section {
+        page-break-inside: avoid;
+        padding: 20px 0;
+    }
+    
+    .container {
+        width: 100% !important;
+        max-width: none;
+    }
+}
+
+/* Professional Animation Delays */
+.portfolio-item:nth-child(1) { animation-delay: 0.1s; }
+.portfolio-item:nth-child(2) { animation-delay: 0.2s; }
+.portfolio-item:nth-child(3) { animation-delay: 0.3s; }
+.portfolio-item:nth-child(4) { animation-delay: 0.4s; }
+
+/* Enhanced Accessibility */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Professional Color Scheme Variables */
+:root {
+    --primary-color: #1e3a8a;
+    --secondary-color: #3730a3;
+    --accent-color: #16a085;
+    --text-color: #333333;
+    --light-gray: #f8f9fa;
+    --medium-gray: #e5e7eb;
+    --dark-gray: #374151;
+}
+
+/* Mobile-First Responsive Design */
+@media (max-width: 576px) {
+    .portfolio-flex-item {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    
+    header .intro-text .name {
+        font-size: 2.2em;
+    }
+    
+    .modal-body {
+        padding: 20px !important;
+    }
+    
+    section {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+    
+    .navbar-nav > li {
+        margin-bottom: 5px;
+    }
+}
+
+/* Professional Button Hover Effects */
+.btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+}
+
+.btn:hover::before {
+    left: 100%;
+}
+
+/* Section Spacing */
+section {
+    padding: 80px 0;
+}
+
+/* Typography Improvements */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Professional Link Styling */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: none;
+}

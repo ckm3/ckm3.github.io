@@ -1,13 +1,140 @@
-<!-- Header -->
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <img class="img-responsive" src="img/profile.png" alt="profile-pic" />
-        <div class="intro-text">
-          <span class="name">{{ site.name }}</span>
-          <hr class="star-light" />
-          <span class="skills">{{ site.skills }}</span>
+<!-- Ultra-Tight Horizontal Header -->
+<header id="header" style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); padding: 20px 0 30px 0; min-height: 55vh;">
+  <div class="container-fluid" style="max-width: 1400px;">
+    <div class="row" style="align-items: center; margin: 0;">
+      
+      <!-- Ultra-Compact Left Column - Profile Picture -->
+      <div class="col-lg-3 col-md-4 col-sm-12" style="padding: 0 15px;">
+        <div style="text-align: center; position: sticky; top: 100px;">
+          <img class="img-responsive profile-image" src="img/profile.png" alt="Dr. {{ site.name }}" 
+               style="width: 220px; height: 220px; object-fit: cover; border-radius: 50%; 
+                      border: 4px solid #ffffff; box-shadow: 0 8px 25px rgba(0,0,0,0.12); 
+                      margin: 0 auto 20px auto; transition: all 0.3s ease;" />
+          
+          <!-- Ultra-Compact Contact -->
+          <div style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); 
+                      padding: 18px; border-radius: 10px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); 
+                      border: 1px solid rgba(30,58,138,0.08); font-size: 13px;">
+            <div style="margin-bottom: 10px;">
+              <i class="fa fa-envelope" style="color: #1e3a8a; margin-right: 6px; width: 14px;"></i>
+              <a href="mailto:{{ site.email }}" style="color: #374151; text-decoration: none;">{{ site.email }}</a>
+            </div>
+            <div style="margin-bottom: 10px;">
+              <i class="fa fa-map-marker" style="color: #1e3a8a; margin-right: 6px; width: 14px;"></i>
+              <span style="color: #374151;">University of Warwick</span>
+            </div>
+            <div style="margin-bottom: 15px;">
+              <i class="fa fa-building" style="color: #1e3a8a; margin-right: 6px; width: 14px;"></i>
+              <span style="color: #374151;">Department of Physics</span>
+            </div>
+            
+            <!-- Compact Links -->
+            <div style="text-align: center;">
+              <a href="https://orcid.org/0000-0003-1535-5587" target="_blank" 
+                 style="display: inline-block; padding: 5px 10px; margin: 2px; background-color: #16a085; 
+                        color: white; text-decoration: none; border-radius: 4px; font-size: 11px;">
+                <i class="fa fa-id-card-o" style="margin-right: 3px;"></i>ORCID
+              </a>
+              <a href="https://github.com/ckm3" target="_blank" 
+                 style="display: inline-block; padding: 5px 10px; margin: 2px; background-color: #374151; 
+                        color: white; text-decoration: none; border-radius: 4px; font-size: 11px;">
+                <i class="fa fa-github" style="margin-right: 3px;"></i>GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Expanded Right Column - Name, Title, and Research Content -->
+      <div class="col-lg-9 col-md-8 col-sm-12" style="padding: 0 20px;">
+        <div style="height: 100%; display: flex; flex-direction: column; justify-content: center;">
+          
+          <!-- Name and Title - Ultra Compact -->
+          <div style="margin-bottom: 25px;">
+            <h1 style="color: #1e3a8a; font-size: 3.2em; font-weight: 700; margin-bottom: 8px; line-height: 1.05; letter-spacing: -0.5px;">
+              {{ site.name }}
+            </h1>
+            <h2 style="color: #475569; font-size: 1.3em; font-weight: 400; margin-bottom: 15px; letter-spacing: 0.5px;">
+              {{ site.skills }}
+            </h2>
+            <div style="width: 60px; height: 3px; background: linear-gradient(90deg, #1e3a8a, #3730a3); margin-bottom: 20px;"></div>
+          </div>
+          
+          <!-- Ultra-Tight Research Content -->
+            <div class="row" style="margin: 0;"></div>
+            <!-- Research Overview - Full Width -->
+            <div class="col-md-12" style="padding-right: 15px;">
+              <div style="background: rgba(255,255,255,0.85); backdrop-filter: blur(10px); padding: 25px; 
+                    border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.06); 
+                    border-left: 3px solid #1e3a8a; margin-bottom: 20px; height: fit-content; text-align: left;">
+              <h3 style="color: #1e3a8a; margin-bottom: 15px; font-size: 1.3em; font-weight: 600;">Research Focus</h3>
+              <p style="color: #374151; line-height: 1.65; margin-bottom: 20px; font-size: 15px;">
+                Postdoctoral Research Fellow specializing in <strong>exoplanet detection</strong> and 
+                <strong>stellar astrophysics</strong>, developing cutting-edge <strong>artifical intelligence</strong> 
+                algorithms for astronomical data analysis and planetary system discovery.
+              </p>
+                
+                <!-- Compact Research Areas -->
+                <div style="margin-bottom: 15px;">
+                  <div class="row" style="margin: 0;">
+                    <div class="col-xs-6" style="margin-bottom: 8px; padding: 0 5px;">
+                      <div style="display: flex; align-items: center;">
+                        <div style="width: 6px; height: 6px; background-color: #16a085; border-radius: 50%; margin-right: 8px; flex-shrink: 0;"></div>
+                        <span style="color: #374151; font-weight: 500; font-size: 13px;">Deep Learning for Transit Detection and Light Curve Classification</span>
+                      </div>
+                    </div>
+                    <div class="col-xs-6" style="margin-bottom: 8px; padding: 0 5px;">
+                      <div style="display: flex; align-items: center;">
+                        <div style="width: 6px; height: 6px; background-color: #16a085; border-radius: 50%; margin-right: 8px; flex-shrink: 0;"></div>
+                        <span style="color: #374151; font-weight: 500; font-size: 13px;">Exoplant Statistical Studies</span>
+                      </div>
+                    </div>
+                    <div class="col-xs-6" style="margin-bottom: 8px; padding: 0 5px;">
+                      <div style="display: flex; align-items: center;">
+                        <div style="width: 6px; height: 6px; background-color: #16a085; border-radius: 50%; margin-right: 8px; flex-shrink: 0;"></div>
+                        <span style="color: #374151; font-weight: 500; font-size: 13px;">Time-Series Analysis</span>
+                      </div>
+                    </div>
+                    <div class="col-xs-6" style="margin-bottom: 8px; padding: 0 5px;">
+                      <div style="display: flex; align-items: center;">
+                        <div style="width: 6px; height: 6px; background-color: #16a085; border-radius: 50%; margin-right: 8px; flex-shrink: 0;"></div>
+                        <span style="color: #374151; font-weight: 500; font-size: 13px;">Stellar Activity and Variables</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Compact Technical Skills -->
+              <div style="background: rgba(30,58,138,0.04); padding: 20px; border-radius: 8px; 
+                          border: 1px solid rgba(30,58,138,0.1);">
+                <h4 style="color: #1e3a8a; margin-bottom: 12px; font-size: 1.1em; font-weight: 600;">Technical Expertise</h4>
+                <div class="row" style="margin: 0;">
+                  <div class="col-xs-4" style="padding: 0 5px;">
+                    <p style="margin-bottom: 5px; font-size: 12px; font-weight: 600; color: #374151;">Programming</p>
+                    <div style="margin-bottom: 10px;">
+                      <span style="background: #1e3a8a; color: white; padding: 2px 6px; border-radius: 8px; font-size: 10px; margin: 1px;">Python</span>
+                      <span style="background: #64748b; color: white; padding: 2px 6px; border-radius: 8px; font-size: 10px; margin: 1px;">C</span>
+                      <span style="background: #64748b; color: white; padding: 2px 6px; border-radius: 8px; font-size: 10px; margin: 1px;">C++</span>
+                    </div>
+                  </div>
+                  <div class="col-xs-4" style="padding: 0 5px;">
+                    <p style="margin-bottom: 5px; font-size: 12px; font-weight: 600; color: #374151;">ML/AI</p>
+                    <div style="margin-bottom: 10px;">
+                      <span style="background: #ea580c; color: white; padding: 2px 6px; border-radius: 8px; font-size: 10px; margin: 1px;">PyTorch</span>
+                    </div>
+                  </div>
+                  <div class="col-xs-4" style="padding: 0 5px;">
+                    <p style="margin-bottom: 5px; font-size: 12px; font-weight: 600; color: #374151;">Astronomy</p>
+                    <div style="margin-bottom: 10px;">
+                      <span style="background: #b91c1c; color: white; padding: 2px 6px; border-radius: 8px; font-size: 10px; margin: 1px;">MESA</span>
+                      <span style="background: #075985; color: white; padding: 2px 6px; border-radius: 8px; font-size: 10px; margin: 1px;">IRAF</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

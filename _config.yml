@@ -1,11 +1,11 @@
 # Site settings
-title: Kaiming Cui's Homepage
-name: Kaiming Cui
+title: Dr. Kaiming Cui
+name: Dr. Kaiming Cui
 email: Kaiming.Cui@warwick.ac.uk
 url: https://cuikaiming.com/
-description: "This is Kaiming Cui's Homepage for Astrophysical Research."
-keywords: "Astrophysics"
-skills: "Ph.D. in Astrophysics"
+description: "Research in Exoplanet Detection, Stellar Astrophysics, and Machine Learning Applications in Astronomy"
+keywords: "Astrophysics, Exoplanets, Stellar Evolution, Machine Learning, Astronomy"
+skills: "Postdoctoral Research Fellow in Astrophysics"
 meta_author: Kaiming Cui
 
 # Google webmaster tools
@@ -26,14 +26,14 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 22262c #80B3FF
-  primary-rgb: "34, 38, 44" #"24,288,156" #"128,179,255"
-  secondary: 362f2c #2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 1e3a8a #Academic blue - professional and trustworthy
+  primary-rgb: "30, 58, 138" #Deep blue for backgrounds
+  secondary: 1f2937 #Sophisticated dark gray
+  secondary-dark: 111827 #Darker shade for contrast
 
 # Footer settings
 footer:
-  email: Kaiming.Cui@warwick.ac.uk
+  email: cuikaiming6@gmail.com
   copyright: Kaiming Cui
   location: United Kingdom
   # social: Around the Web
@@ -61,7 +61,7 @@ address:
   - line: Millburn House, Coventry
 
 # Credits content
-credits: 'This homepage is based on Freelance. Freelancer is a free to use, open source Bootstrap theme created by <a style="color:#8383a2; href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'This academic website is based on the Freelancer Bootstrap theme. Design adapted for professional academic presentation.'
 
 # Build settings
 markdown: kramdown
@@ -73,4 +73,4 @@ defaults:
       path: ""
       type: "posts"
     values:
-      permalink: ""
+      permalink: "/projects/:title/"

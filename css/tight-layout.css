@@ -1,0 +1,190 @@
+/* Tight Layout Overrides - Professional Academic Enhancement */
+
+/* Compact Header Layout */
+header {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%) !important;
+    color: #1e3a8a !important;
+    min-height: 70vh !important;
+    padding: 100px 0 60px 0 !important;
+}
+
+/* Profile Image Styling */
+.profile-image {
+    transition: all 0.3s ease !important;
+}
+
+.profile-image:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Compact Sections */
+section {
+    padding: 60px 0 !important;
+}
+
+section h2 {
+    margin: 0 0 20px 0 !important;
+    font-size: 2.2em !important;
+    font-weight: 600 !important;
+}
+
+/* Tight About Section */
+section.success {
+    padding: 60px 0 !important;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%) !important;
+    color: #ffffff !important;
+}
+
+/* Compact Navigation */
+.navbar-default {
+    padding: 8px 0 !important;
+}
+
+.navbar-brand {
+    font-size: 1.1em !important;
+}
+
+.navbar-nav > li > a {
+    padding: 12px 15px !important;
+    font-size: 13px !important;
+}
+
+/* Tight Portfolio Grid */
+.portfolio-flex-row {
+    gap: 25px !important;
+    margin-bottom: 30px !important;
+}
+
+.portfolio-flex-item {
+    flex: 0 0 calc(45% - 12px) !important;
+    max-width: 380px !important;
+}
+
+.portfolio-item img {
+    height: 220px !important;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-3px) !important;
+}
+
+/* Compact Cards */
+.professional-card {
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+/* Compact Publications */
+.publication-item {
+    margin-bottom: 20px !important;
+    padding: 18px !important;
+}
+
+.publication-item:hover {
+    transform: translateX(3px) !important;
+}
+
+/* Compact Buttons */
+.btn-primary {
+    padding: 10px 20px !important;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px) !important;
+}
+
+/* Compact Dividers */
+hr.star-primary {
+    margin: 20px auto 25px !important;
+    max-width: 150px !important;
+}
+
+hr.star-primary:after {
+    font-size: 14px !important;
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+}
+
+/* Typography Adjustments */
+h1 { font-size: 2.2em !important; }
+h2 { font-size: 2em !important; }
+h3 { font-size: 1.6em !important; }
+h4 { font-size: 1.3em !important; }
+
+p {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 15px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px !important;
+}
+
+/* Compact CV and Publications */
+#cv, #publications {
+    padding: 50px 0 !important;
+}
+
+/* Modal Adjustments */
+.modal-body {
+    padding: 30px !important;
+}
+
+/* Responsive Adjustments */
+@media(max-width: 768px) {
+    header {
+        min-height: auto !important;
+        padding: 80px 0 40px 0 !important;
+    }
+    
+    section {
+        padding: 40px 0 !important;
+    }
+    
+    .professional-card {
+        margin-bottom: 15px !important;
+        padding: 18px !important;
+    }
+    
+    .col-md-4, .col-md-8 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media(max-width: 480px) {
+    section {
+        padding: 30px 0 !important;
+    }
+    
+    .navbar-nav > li > a {
+        padding: 10px 12px !important;
+        font-size: 12px !important;
+    }
+}
+
+/* Smooth scrolling and professional touches */
+html {
+    scroll-padding-top: 70px !important;
+}
+
+/* Professional scrollbar */
+::-webkit-scrollbar {
+    width: 6px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e3a8a !important;
+    border-radius: 3px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1e40af !important;
+}
