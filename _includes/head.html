@@ -38,9 +38,12 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
     <!-- Professional Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    
+    <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+    <link rel="icon" sizes="any" href="{{ '/favicon.ico' | relative_url }}"><!-- optional fallback -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}"><!-- for iOS -->
+    <!-- Optional Safari pinned tab -->
+    <link rel="mask-icon" href="{{ '/safari-pinned-tab.svg' | relative_url }}" color="#1e3a8a">
+
     <!-- Custom CSS & Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{ "/style.css" }}">
     
